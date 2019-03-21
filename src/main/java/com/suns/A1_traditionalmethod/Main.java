@@ -1,4 +1,4 @@
-package com.suns;
+package com.suns.A1_traditionalmethod;
 
 public class Main {
     public static void main(String[] args){

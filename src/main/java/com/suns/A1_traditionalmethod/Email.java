@@ -1,4 +1,4 @@
-package com.suns;
+package com.suns.A1_traditionalmethod;
 
 public class Email {
     private String title;
