@@ -10,10 +10,17 @@
         <property name="body" value="Hello, my name is A, I want a job."/>
     </bean>
 
-
-
     <bean id="email2" class="com.suns.A3_scope.Email" scope="prototype">
         <property name="title" value="apply for a job"/>
+    </bean>
+
+    <bean id="email3" class="com.suns.A4_inherit.Email">
+        <property name="title" value="Hello World!"/>
+        <property name="body" value="I am parent"/>
+    </bean>
+
+    <bean id="email4" class="com.suns.A4_inherit.Email" parent="email3">
+        <property name="body" value="I am child"/>
     </bean>
 
 </beans>
