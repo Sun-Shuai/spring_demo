@@ -11,6 +11,15 @@ public class BeanConfig {
         Email email = new Email();
         email.setTitle("hello");
         email.setBody("hi");
+
         return email;
+    }
+
+    @Bean
+    public Enclosure2 enclosure2(){
+        Enclosure2 enclosure2 = new Enclosure2();
+        enclosure2.setFilename("001.mp4");
+        enclosure2.setContent("lalala...");
+        return enclosure2;
     }
 }
