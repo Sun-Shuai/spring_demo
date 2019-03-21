@@ -52,5 +52,15 @@
         <property name="content" value="lalala..."/>
     </bean>
 
+    <bean id="email8" class="com.suns.A9_autowired_attribute.Email">
+        <property name="title" value="Hello"/>
+        <property name="body" value="This ..."/>
+    </bean>
+
+    <bean id="enclosure1" class="com.suns.A9_autowired_attribute.Enclosure1">
+        <property name="filename" value="file003.mp3"/>
+        <property name="content" value="lalala..."/>
+    </bean>
+
 
 </beans>
