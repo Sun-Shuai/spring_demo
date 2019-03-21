@@ -22,7 +22,7 @@ public class Enclosure {
 
     @Override
     public String toString() {
-        return "Enclosure{" +
+        return "Enclosure0{" +
                 "filename='" + filename + '\'' +
                 ", content='" + content + '\'' +
                 '}';

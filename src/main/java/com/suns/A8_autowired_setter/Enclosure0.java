@@ -1,6 +1,7 @@
-package com.suns.A6_dependencyinjection;
+package com.suns.A8_autowired_setter;
 
-public class Enclosure {
+
+public class Enclosure0 {
     private String filename;
     private String content;
 
