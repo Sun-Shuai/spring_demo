@@ -5,9 +5,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
-    <bean id="email" class="com.suns.A2_springhelloworld.Email">
+    <bean id="email1" class="com.suns.A2_springhelloworld.Email">
         <property name="title" value="apply for a job"/>
         <property name="body" value="Hello, my name is A, I want a job."/>
+    </bean>
+
+
+
+    <bean id="email2" class="com.suns.A3_scope.Email" scope="prototype">
+        <property name="title" value="apply for a job"/>
     </bean>
 
 </beans>
