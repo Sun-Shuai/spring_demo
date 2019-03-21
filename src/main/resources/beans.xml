@@ -23,4 +23,14 @@
         <property name="body" value="I am child"/>
     </bean>
 
+    <bean id="email5" class="com.suns.A6_dependencyinjection.Email">
+        <property name="title" value="Hello"/>
+        <property name="body" value="This email contains an enclosure"/>
+        <property name="enclosure" ref="enclosure"/>
+    </bean>
+
+    <bean id="enclosure" class="com.suns.A6_dependencyinjection.Enclosure">
+        <property name="filename" value="file001.mp3"/>
+        <property name="content" value="lalala..."/>
+    </bean>
 </beans>
