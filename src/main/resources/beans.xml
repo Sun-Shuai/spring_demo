@@ -33,4 +33,9 @@
         <property name="filename" value="file001.mp3"/>
         <property name="content" value="lalala..."/>
     </bean>
+
+    <bean id="email6" class="com.suns.A7_required.Email">
+        <property name="title" value="Hello"/>
+        <property name="body" value=""/>
+    </bean>
 </beans>
